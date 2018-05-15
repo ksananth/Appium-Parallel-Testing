@@ -1,0 +1,10 @@
+[caps]
+platformName = "android"
+deviceName = "Redmi 4"
+udid = "d03700f7"
+app = "../package/NotesList.apk"
+noReset = false
+autoGrantPermissions = true
+
+[appium_lib]
+port = "4491"

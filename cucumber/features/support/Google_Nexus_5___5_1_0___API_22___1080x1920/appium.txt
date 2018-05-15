@@ -1,0 +1,8 @@
+[caps]
+platformName = "android"
+deviceName = "Google_Nexus_5___5_1_0___API_22___1080x1920"
+udid = "192.168.57.101:5555"
+app = "../package/NotesList.apk"
+
+[appium_lib]
+port = "4492"

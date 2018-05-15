@@ -1,0 +1,6 @@
+# config/cucumber.yml
+##YAML Template
+---
+Google_Nexus_5___5_1_0___API_22___1080x1920: ADEVICENAME='Google_Nexus_5___5_1_0___API_22___1080x1920'
+Redmi4: ADEVICENAME='Redmi4'
+
