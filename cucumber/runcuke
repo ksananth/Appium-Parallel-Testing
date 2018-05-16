@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 appium -p 4491 -bp 2252 &
 appium -p 4492 -bp 2251 &
+appium -p 4493 -bp 2252 &
 sleep 20
 currDate=$(date '+%Y_%m_%d');
 if [ ! -d "./reports/${currDate}" ]; then
@@ -10,6 +11,7 @@ fi
 timeStamp=$(date '+%Y_%m_%d_%H_%M_%S');
 cucumber -p Google_Nexus_5___5_1_0___API_22___1080x1920 -f html -o ./reports/"${currDate}"/"${timeStamp}_nexus10.html" &
 cucumber -p Redmi4 -f html -o ./reports/"${currDate}"/"${timeStamp}_lgg2.html" &
+cucumber -p samsungs4 -f html -o ./reports/"${currDate}"/"${timeStamp}_lgg2.html" &
 wait %3
 wait %4
 kill -9 %1

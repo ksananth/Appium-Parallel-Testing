@@ -1,0 +1,10 @@
+[caps]
+platformName = "android"
+deviceName = "samsungs4"
+udid = "3204c5a00b1f7177"
+app = "../package/NotesList.apk"
+noReset = false
+autoGrantPermissions = true
+
+[appium_lib]
+port = "4491"
